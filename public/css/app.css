@@ -1,0 +1,19 @@
+﻿.row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: #ccc 1px solid;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.header {
+    text-align: center;
+}
+
+h4 {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+

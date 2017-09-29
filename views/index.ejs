@@ -1,0 +1,99 @@
+﻿<html>
+    <head>
+        <script src="/js/jquery-2.1.4.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/app.js"></script>
+        
+        <link href="/css/bootstrap.min.css" rel="stylesheet"></link>
+        <link href="/css/app.css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 header">
+                    <h2>Twitter Sample Feed</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">Total Tweets:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="feedTotal"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">Tweets/Hour:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="avgPerHour"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">Tweets/Minute:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="avgPerMin"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">Tweets/Second:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="avgPerSec"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">% of tweets with emojis:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="withEmojis"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">Top emojis:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="topEmojis"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">Top Hashtags:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="topHashtags"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">% of tweets with a url:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="withUrl"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">% of tweets with a photo url:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="withPhotoUrl"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="pull-right">Top domains of urls in tweets:</h4>
+                </div>
+                <div class="col-md-6">
+                    <div id="topDomains"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
